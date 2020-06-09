@@ -1,0 +1,56 @@
+ -------------------------------------------------------------------------------
+ M1QN3 Copyright (C) 2008, J. Ch. Gilbert, Cl. Lemarechal.
+ -------------------------------------------------------------------------------
+ This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
+ are welcome to redistribute it under certain conditions. See the file COPYING 
+ in the root directory of the M1QN3 distribution for details.
+ -------------------------------------------------------------------------------
+
+ M1QN3 (Version 3.3, October 2009): entry point
+     dimension of the problem (n):        445384
+     absolute precision on x (dxmin):          1.00D-06
+     expected decrease for f (df1):            9.58D+01
+     relative precision on g (epsg):           1.00D-06 (two-norm)
+     maximal number of iterations (niter):  1000
+     maximal number of simulations (nsim):  2000
+     printing level (impres):                 10
+     reverse communication
+
+ m1qn3: Diagonal Initial Scaling mode
+
+     allocated memory (ndz) :  5344612
+     used memory :             5344612
+     number of updates :             4
+     (y,s) pairs are stored in core memory
+
+ m1qn3: cold start
+
+     f             =  9.95781594D+02
+     two-norm of g =  3.99390400D+02
+
+ m1qn3a: descent direction -g: precon =  0.120D-02
+
+ -------------------------------------------------------------------------------
+
+ m1qn3: iter 1, simul 1, f= 9.95781594D+02, h'(0)=-1.91563D+02
+
+ m1qn3: line search
+
+     mlis3       fpn=-1.916D+02 d2= 2.30D-01  tmin= 7.38D-06 tmax= 1.00D+20
+     mlis3     1.000D+00 -1.762D+02 -1.216D+02
+
+ m1qn3: matrix update:
+     fitting the ellipsoid: factor =  2.310D-03
+     updated diagonal: average value =  2.310D-03, sqrt(variance) =  6.486D-07
+
+ m1qn3: stopping criterion on g:  6.77954D-01
+
+ m1qn3: descent direction d: angle(-g,d) =   5.2 degrees
+
+ -------------------------------------------------------------------------------
+
+ m1qn3: iter 2, simul 2, f= 8.19608180D+02, h'(0)=-3.63576D+02
+
+ m1qn3: line search
+
+     mlis3       fpn=-3.636D+02 d2= 1.82D+00  tmin= 2.69D-06 tmax= 1.00D+20
