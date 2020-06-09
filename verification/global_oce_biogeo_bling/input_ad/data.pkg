@@ -4,6 +4,6 @@
  usePTRACERS    = .TRUE.,
  useGCHEM       = .TRUE.,
  useECCO        = .TRUE.,
- useGrdchk      = .TRUE.,
+ useGrdchk      = .FALSE.,
  usePROFILEs    = .TRUE.,
  &

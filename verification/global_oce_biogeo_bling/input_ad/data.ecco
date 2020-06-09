@@ -24,6 +24,6 @@
  gencost_spmax(1) = 40.,
  gencost_spzero(1) = 0.,
  gencost_outputlevel(1)=1,
- mult_gencost(1) = 0.1,
+ mult_gencost(1) = 0.,
 #
  &
